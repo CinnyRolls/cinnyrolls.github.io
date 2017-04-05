@@ -1,0 +1,119 @@
+body{
+  background: #003 url('Pictures/background.png') no-repeat center fixed;
+  background-size: 100%;
+  font-family: 'VT323', monospace;
+  font-size: 15px;
+  text-align: justify;
+  color: #003;
+}
+
+a, a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: #003;
+}
+
+h1{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 68px;
+}
+
+h2{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 58px;
+}
+
+h3{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 48px;
+}
+
+h4{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 38px;
+}
+
+h5{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 28px;
+}
+
+h6{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 18px;
+}
+
+small{
+  color: #003 !important;
+}
+
+p{
+  font-size: 18px;
+}
+
+.header{
+  margin: 60px 0;
+  font-family: 'VT323', cursive;
+  font-style: italic;
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+}
+
+a.header{
+  color: #FFF;
+}
+
+.onglet{
+  padding-left: 15px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.nav-tabs{
+  border-bottom: 1px solid #FFF;
+}
+
+.nav-tabs>li>a{
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  color: #FFF;
+}
+
+.nav-tabs>li>a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+  color: #003;
+}
+
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
+  background-color: #FFF;
+  border: 1px solid #FFF;
+  border-bottom-color: transparent;
+  color: #003;
+}
+
+.contenu{
+  background-color: rgba(255, 255, 255, 0.5);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #000;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+}
+
+.news{
+  text-indent: 88px;
+}
+
+a.telechargeable{
+  font-size: 18px;
+  font-style: italic;
+}
+
+.copyright{
+  text-align: center;
+  color: #FFF;
+}
